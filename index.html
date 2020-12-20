@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Javascript Quiz</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="sketch.js"></script>
+<body>
+    <div class="container">
+        <header class="head">
+            <center>
+            <h1>Simple Java Quiz</h1>
+            <p><b>Test your java fundamentals</b></p>
+            </center>
+        </header>
+        <form name="quiz form" onsubmit="return checkAnswers()">
+            <div class="main-container1">
+                <h3>Q1.What is the <i>shortcut</i> for printing a line in java?</h3>
+                <div class="options">
+                <input type="radio" value="a" name="q1" id="q1a">1.sysout<br>
+                <input type="radio" value="b" name="q1" id="q1b">2.printing <br>
+                <input type="radio" value="c" name="q1" id="q1c">3.alert <br>
+                <input type="radio" value="d" name="q1" id="q1d">4.system.ouput.println
+                </div>
+            </div>
+            <div class="main-container2">
+                <h3>Q2.Name the one commonly used primitive type of variable. </h3>
+                <input type="radio" value="a" name="q2" id="q2a">1.int <br>
+                <input type="radio" value="b" name="q2" id="q2b">2.char <br>
+                <input type="radio" value="c" name="q2" id="q2c">3.String <br>
+                <input type="radio" value="d" name="q2" id="q2d">4.float
+            </div>
+            <div class="main-container3">
+                <h3>Q3.What is the name of the library we import to have fx?</h3>
+                <input type="radio" value="a" name="q3" id="q3a">1.swing.* <br>
+                <input type="radio" value="b" name="q3" id="q3b">2.swing <br>
+                <input type="radio" value="c" name="q3" id="q3c">3.javax <br>
+                <input type="radio" value="d" name="q3" id="q3d">4.None of the above.
+            </div>
+            <center>
+            <input id="sub" type="submit" value="Submit form">
+            </center>
+        </form>
+    </div>
+</body>
+</html>

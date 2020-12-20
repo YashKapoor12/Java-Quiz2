@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+.head{
+    border-bottom: 3px dashed;
+}
+.container{
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+input [type="submit"]{
+}
+input [type="submit"]:hover{
+}
+.options:hover{
+    cursor: pointer;
+}
+.main-container1 .main-container2 .main-container3{
+    border-bottom: 2px solid black;
+}
+#sub{
+	width:100px;
+	height:30px;
+	border-radius:16%;
+	color:white;
+	border:2px solid orange;
+    border-radius: 20px;
+    background-color: blue;
+	cursor:pointer;
+    transition: 0.4s all;
+}
+#sub:hover{
+    box-shadow: 0px 0px 4px 5px #ff3355;
+}
